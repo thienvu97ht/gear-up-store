@@ -1,6 +1,7 @@
 import { ShoppingCart, Menu, X, Search, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
+import logo from "@/assets/logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,10 +18,8 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <a href="/" className="flex items-center gap-2">
-            <span className="font-display text-2xl md:text-3xl text-gradient">
-              MOTOGEAR
-            </span>
+          <a href="/" className="flex items-center">
+            <img src={logo} alt="Ener Speed" className="h-8 md:h-10 w-auto" />
           </a>
 
           {/* Desktop Navigation */}

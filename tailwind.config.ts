@@ -79,8 +79,8 @@ export default {
           "100%": { opacity: "1", transform: "scale(1)" },
         },
         "pulse-glow": {
-          "0%, 100%": { boxShadow: "0 0 20px hsl(24 100% 50% / 0.3)" },
-          "50%": { boxShadow: "0 0 40px hsl(24 100% 50% / 0.5)" },
+          "0%, 100%": { boxShadow: "0 0 20px hsl(180 100% 50% / 0.3)" },
+          "50%": { boxShadow: "0 0 40px hsl(180 100% 50% / 0.5)" },
         },
       },
       animation: {
